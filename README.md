@@ -1,2 +1,3 @@
-# typescript-dragAndDrop
-Exercise to get more acquianted with TypeScript
+# TypeScript | DRAG AND DROP
+
+Exercise to get more acquainted with TypeScript
