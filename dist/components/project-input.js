@@ -6,7 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import { Component } from "./base-component.js";
 import * as Validation from "../util/validation.js";
-import { autobind } from "../decorators/autobind.js";
+import { autobind as Autobind } from "../decorators/autobind.js";
 import { projectState } from "../state/project-state.js";
 export class ProjectInput extends Component {
     constructor() {
@@ -65,6 +65,6 @@ export class ProjectInput extends Component {
     }
 }
 __decorate([
-    autobind
+    Autobind
 ], ProjectInput.prototype, "submitHandler", null);
 //# sourceMappingURL=project-input.js.map
